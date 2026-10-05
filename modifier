@@ -1,0 +1,24 @@
+public class oops{
+    public static void main(String args[]){
+Student s1=new Student();
+System.out.println(s1.name="AISHWARYA");
+s1.setusn(      "1AU27AD008");
+System.out.println(s1);
+    }
+}
+
+class Pen{
+    String color;
+    int tip;
+
+}
+
+class Student{
+   public String name;
+   private String usn;
+   void setusn(String newusn){
+    usn=newusn;
+    
+   }
+
+}
